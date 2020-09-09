@@ -14,7 +14,7 @@ void selectionSort(int a[], int n)
         {
             if (a[j] < a[min])
             {
-                min = j; // ghi nhận vị trí phần tử nhỏ nhất
+                min = j; 
             }
         }
         if (min != i)
@@ -28,6 +28,7 @@ void selectionSort(int a[], int n)
 
 int main()
 {
+
     int a[100], n;
     printf("Nhap so phan tu: n = ");
     scanf("%d", &n);
@@ -41,5 +42,6 @@ int main()
     {
         printf("%d ", a[i]);
     }
+
     return 0;
 }
